@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: green;
+    background-color: black;
+    background-image:url('kl.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    opacity: 2;
+  }
+  #container {
+      display: flex; /* set the display property to flex */
+      justify-content: center; /* horizontally center the items */
+      align-items: center; /* vertically center the items */
+      height: 100vh; /* set the height of the container */
+      gap: 85px;
+    opacity: .93;
+     background-color: black;
+  }
+  #left{
+  /*     border: 2px solid wheat; */
+      height: 70%;
+      width: 15%;
+      display:flex;
+    overflow:auto;
+      justify-content: center;
+      background-color: black;
+      opacity: .95 ;
+    box-shadow: 2px 3px 15px 0px #3eb226, inset 1px 0px 10px 4px #3eb226;
+  }
+  #left::-webkit-scrollbar {
+    display: none;
+  }
+  
+  #centre{
+  /*     border: 2px solid wheat; */
+      width: 25%;
+      height:80%;
+      background-color: black;
+    color:red;
+     font-weight: bold;
+      opacity: .95;
+      display:flex;
+      justify-content: center;
+    box-shadow: 2px 3px 15px 0px #3eb226, inset 1px 0px 10px 4px #3eb226;
+  
+  }
+  #right{
+  /*     border: 2px solid wheat; */
+      height: 70%;
+      width: 15%;
+      background-color: black;
+      opacity: .95;
+      display:flex;
+      overflow:auto;
+  
+      justify-content: center;
+      box-shadow: 2px 3px 15px 0px #3eb226, inset 1px 0px 10px 4px #3eb226;
+  
+  }
+  #right::-webkit-scrollbar {
+    display: none;
+  }
+  
+  button {
+      font-weight: bold;
+      height: 6%;
+      width: 59%;
+      border-radius: 12px;
+      border: 0;
+      position: relative;
+      top: 6%;
+      right: -15%;
+      color: #f00505;
+      background-color: #2cff13;
+      box-shadow: 2px 3px 15px 0px #fbfffa, inset 1px 0px 10px 4px #ffffff;
+      text-shadow: 2px 3px 15px 0px #080808;
+  }
+  
+  input {
+         height: 7%;
+      width: 114%;
+      position: relative;
+      top: 4%;
+      right: 11%;
+      border-radius: 12px;
+      color: #f00505;
+      background-color: #2cff13;
+      box-shadow: 2px 3px 15px 0px #fbfffa, inset 1px 0px 10px 4px #ffffff;
+      text-shadow: 2px 3px 15px 0px #080808;
+  }
+  
+  #inputBox.hide {
+    display: none;
+  }
+  
